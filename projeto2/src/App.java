@@ -9,7 +9,7 @@ public class App {
         int experiencia = s.nextInt();
         Professor p = new Professor(nome, experiencia);
         System.out.println(p.toString());
-        System.out.println("Categoria: " + p.classifica());
+        System.out.println("Categoria: " + p.classifica()); //mais um comentario
         s.close();
     }
 }
