@@ -4,7 +4,7 @@ public class Professor {
 
     public Professor(String nome, int anosExperiencia) { //comentario para branch main
         this.nome = nome;
-        this.anosExperiencia = anosExperiencia;
+        this.anosExperiencia = anosExperiencia;  //comentario da branch alteracao
     }
 
     public String getNome() {
