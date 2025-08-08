@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Indique o nome do professor: ");
+        System.out.print("Indique o nome do professor: "); //alteracao pro exercicio de branches
         String nome = s.nextLine();
         System.out.print("Indique quantos anos de experiencia ele tem: ");
         int experiencia = s.nextInt();
